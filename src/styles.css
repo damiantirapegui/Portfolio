@@ -1,0 +1,19 @@
+:root {
+  /* Colors */
+  --primary-purple: #945ddd;
+  --primary-grey: #2c2b2b;
+  --primary-white: #ffffff;
+  --primary-black: #050505;
+  --primary-green: #4fc877;
+
+  /* font sizes */
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 20px;
+  --font-xl: 28px;
+  --font-xxl: 36px;
+
+  /* font family  */
+  --font-base: "Work Sans", sans-serif;
+}

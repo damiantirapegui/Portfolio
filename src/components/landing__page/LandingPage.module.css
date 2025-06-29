@@ -1,0 +1,45 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.landing-page__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text {
+  width: 80%;
+  font-size: var(--font-lg);
+}
+
+.highlighted-words {
+  color: var(--primary-purple); /* Tomato color for highlighted words */
+}
+
+.profile-picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%; /* Gör bilden rund */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}

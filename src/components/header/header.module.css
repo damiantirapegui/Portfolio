@@ -1,8 +1,12 @@
 .container {
   display: flex;
-
   height: 60px;
   background-color: var(--primary-purple);
+}
+
+.lightMode {
+  background-color: var(--primary-black);
+  color: var(--primary-green);
 }
 
 .hamburger-container {

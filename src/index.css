@@ -6,3 +6,25 @@
   margin: 0;
   font-family: var(--font-base);
 }
+
+body.light {
+  background-color: var(--primary-white);
+  color: #000;
+}
+
+body.dark {
+  background-color: var(--primary-grey);
+  color: #fff;
+}
+
+header.dark {
+  background-color: var(--primary-green);
+  color: var(--primary-black);
+}
+
+.highlighted-words {
+  color: var(--primary-purple);
+}
+.highlighted-words-dark-mode {
+  color: var(--primary-green);
+}
